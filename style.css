@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #091416;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.container {
+    background: linear-gradient(#09171A, transparent), url("./images/pexels-wilson-rodriguez-6078836.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    min-height: 200vh;
+}
+
+nav {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex: 1 1 5rem;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+
+.header-h1 {
+    flex: 1 1 20rem;
+}
+
+.main {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.main-small {
+    padding-top: 3rem;
+}
